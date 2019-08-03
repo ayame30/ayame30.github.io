@@ -2,7 +2,7 @@ var app = new Vue({
     el: '#app',
     data: {
         status: { playing: false, change: false, listMore: false },
-        settings: { speed: 1, speaker: 'Bruce' },
+        settings: { speed: 1, speaker: 'Sinyi' },
         checkList: {
             sentinel: { on: 0, ver: 2 },
             doppelganger: { on: 1, ver: 1 },
