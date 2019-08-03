@@ -71,7 +71,7 @@
         </nav>
         <div class="container" :class="{playing:status.playing}">
             <!-- github another -->
-            <h1 class="hidden">一夜終極狼人小幫手(廣東話)</h1>
+            <h1 class="">一夜終極狼人小幫手(廣東話)</h1>
             <p>此為支援廣東話版本Fork Repo，原作者網站為 <a href="https://z358z358.github.io/one-night-ultimate-werewolf-helper/">https://z358z358.github.io/one-night-ultimate-werewolf-helper/</a></p>
             <hr>
             <button id="play-voice" class="col-xs-6 btn btn-primary btn-lg" :class="{'btn-danger':status.playing}" v-text="(status.playing)?'停止播放':'播放語音'" @click="startVoice"></button>
